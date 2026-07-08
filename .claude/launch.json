@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "convites",
+      "runtimeExecutable": "/Users/manu/Library/Application Support/Local/lightning-services/php-8.5.3+1/bin/darwin-arm64/bin/php",
+      "runtimeArgs": ["artisan", "serve"],
+      "port": 8000
+    }
+  ]
+}
