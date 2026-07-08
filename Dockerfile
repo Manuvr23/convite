@@ -1,5 +1,5 @@
 # Imagen para desplegar Convites (Laravel) en Render.
-FROM php:8.3-cli
+FROM php:8.4-cli
 
 # Dependencias del sistema + extensiones PHP que necesita la app
 # (pdo_pgsql para PostgreSQL de Render, zip/gd para el export a Excel).
