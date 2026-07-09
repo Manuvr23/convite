@@ -6,6 +6,12 @@
     <title>{{ $wedding->groom_name }} &amp; {{ $wedding->bride_name }}</title>
     <meta property="og:title" content="Boda de {{ $wedding->groom_name }} y {{ $wedding->bride_name }}">
     <meta property="og:description" content="{{ $guest->name }}, estas invitado/a a nuestra boda.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ route('invitation.og', $wedding) }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/png">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=cormorant-garamond:500,600,700|great-vibes|inter:300,400,500,600" rel="stylesheet" />
     <style>

@@ -12,6 +12,7 @@ Route::get('/', function () {
 
 Route::get('/i/{guest:token}', [InvitationController::class, 'show'])->name('invitation.show');
 Route::post('/i/{guest:token}/rsvp', [InvitationController::class, 'rsvp'])->name('invitation.rsvp');
+Route::get('/boda/{wedding}/preview.png', [InvitationController::class, 'ogImage'])->name('invitation.og');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
